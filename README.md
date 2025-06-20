@@ -16,29 +16,40 @@ Khóa học 12 tuần tự học Python từ cơ bản đến nâng cao, tập t
 
 ### Giai đoạn 1: Nền tảng Python (Tuần 1-4)
 
-- **Tuần 1**: Giới thiệu Python và cài đặt môi trường
-- **Tuần 2**: Kiểu dữ liệu, biến và toán tử
-- **Tuần 3**: Cấu trúc điều khiển và hàm
-- **Tuần 4**: Xử lý file và exception handling
+- **Week01_Python_Introduction**: Giới thiệu Python và cài đặt môi trường
+- **Week02_Data_Types_Variables**: Kiểu dữ liệu, biến và toán tử
+- **Week03_Control_Structures_Functions**: Cấu trúc điều khiển và hàm
+- **Week04_File_Handling_Exceptions**: Xử lý file và exception handling
 
 ### Giai đoạn 2: Thư viện cơ bản (Tuần 5-8)
 
-- **Tuần 5**: NumPy - Tính toán khoa học
-- **Tuần 6**: Pandas - Xử lý dữ liệu
-- **Tuần 7**: Matplotlib/Seaborn - Trực quan hóa
-- **Tuần 8**: Jupyter Notebook và workflow
+- **Week05_NumPy_Scientific_Computing**: NumPy - Tính toán khoa học
+- **Week06_Pandas_Data_Processing**: Pandas - Xử lý dữ liệu
+- **Week07_Matplotlib_Data_Visualization**: Matplotlib/Seaborn - Trực quan hóa
+- **Week08_Jupyter_Workflow**: Jupyter Notebook và workflow
 
 ### Giai đoạn 3: Ứng dụng GIS và Viễn thám (Tuần 9-12)
 
-- **Tuần 9**: Giới thiệu GIS và dữ liệu không gian
-- **Tuần 10**: Xử lý dữ liệu raster với GDAL/Rasterio
-- **Tuần 11**: Phân tích vector với Geopandas
-- **Tuần 12**: Machine Learning cho dữ liệu viễn thám
+- **Week09_GIS_Introduction**: Giới thiệu GIS và dữ liệu không gian
+- **Week10_Raster_Processing**: Xử lý dữ liệu raster với GDAL/Rasterio
+- **Week11_Vector_Analysis**: Phân tích vector với Geopandas
+- **Week12_Machine_Learning_Remote_Sensing**: Machine Learning cho dữ liệu viễn thám
 
 ## 📁 Cấu trúc thư mục
 
 ```
-Week01-12/
+Week01_Python_Introduction/
+Week02_Data_Types_Variables/
+Week03_Control_Structures_Functions/
+Week04_File_Handling_Exceptions/
+Week05_NumPy_Scientific_Computing/
+Week06_Pandas_Data_Processing/
+Week07_Matplotlib_Data_Visualization/
+Week08_Jupyter_Workflow/
+Week09_GIS_Introduction/
+Week10_Raster_Processing/
+Week11_Vector_Analysis/
+Week12_Machine_Learning_Remote_Sensing/
 ├── 01_Theory/          # Tài liệu lý thuyết
 ├── 02_Exercises/       # Bài tập và đáp án
 └── 03_Project/         # Dự án thực hành
@@ -59,7 +70,7 @@ Xem thư mục `Resources/` để biết thêm chi tiết về tài liệu tham 
 
 1. Cài đặt Python và môi trường phát triển
 2. Clone/download khóa học
-3. Bắt đầu với Week01
+3. Bắt đầu với Week01_Python_Introduction
 4. Làm theo thứ tự: Theory → Exercises → Project
 
 ---

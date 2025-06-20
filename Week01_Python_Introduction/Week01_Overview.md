@@ -77,4 +77,4 @@ Sau tuần 1, bạn có thể:
 
 ---
 
-**Tuần tiếp theo**: Week02 - Kiểu dữ liệu, biến và toán tử
+**Tuần tiếp theo**: Week02_Data_Types_Variables - Kiểu dữ liệu, biến và toán tử
