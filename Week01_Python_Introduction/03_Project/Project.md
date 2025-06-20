@@ -4,14 +4,14 @@
 
 ```
 03_Project/
-├── project1_calculator/      # Advanced Calculator
-├── project2_profile/         # Personal Profile Generator
+├── project1_calculator/      # Máy tính nâng cao
+├── project2_profile/         # Trình tạo hồ sơ cá nhân
 └── README.md                 # File này
 ```
 
 ---
 
-## 🎯 Project 1: Advanced Calculator
+## 🎯 Dự án 1: Máy tính nâng cao
 
 ### 📖 Mô tả
 
@@ -19,31 +19,31 @@ Xây dựng calculator nâng cao có thể thực hiện nhiều phép tính và
 
 ### 🔧 Tính năng
 
-1. **Basic Operations**: +, -, \*, /
-2. **Advanced Operations**: Power (^), Square root, Percentage
-3. **Scientific Functions**: Sin, Cos, Tan (bonus)
-4. **Memory Functions**: Store và recall results
-5. **Input Validation**: Handle invalid inputs
-6. **User Menu**: Interactive menu system
+1. **Phép tính cơ bản**: +, -, \*, /
+2. **Phép tính nâng cao**: Lũy thừa (^), Căn bậc hai, Phần trăm
+3. **Hàm khoa học**: Sin, Cos, Tan (bonus)
+4. **Chức năng bộ nhớ**: Lưu trữ và gọi lại kết quả
+5. **Xác thực đầu vào**: Xử lý đầu vào không hợp lệ
+6. **Menu người dùng**: Hệ thống menu tương tác
 
-### 📋 Requirements
+### 📋 Yêu cầu
 
 - Chương trình chạy trong loop cho đến khi user chọn exit
 - Menu rõ ràng, dễ sử dụng
 - Handle errors gracefully
 - Code được organize tốt với functions
 
-### 🎯 Expected Features
+### 🎯 Tính năng mong đợi
 
 ```
-====== ADVANCED CALCULATOR ======
-1. Basic Calculator (+, -, *, /)
-2. Scientific Calculator
-3. Unit Converter
-4. History
-5. Exit
+====== MÁY TÍNH NÂNG CAO ======
+1. Máy tính cơ bản (+, -, *, /)
+2. Máy tính khoa học
+3. Bộ chuyển đổi đơn vị
+4. Lịch sử
+5. Thoát
 
-Choose option (1-5):
+Chọn tùy chọn (1-5):
 ```
 
 ### 📁 Files cần tạo:
@@ -54,7 +54,7 @@ Choose option (1-5):
 
 ---
 
-## 🎯 Project 2: Personal Profile Generator
+## 🎯 Dự án 2: Trình tạo hồ sơ cá nhân
 
 ### 📖 Mô tả
 
@@ -62,32 +62,32 @@ Tạo chương trình thu thập thông tin cá nhân và generate profile card 
 
 ### 🔧 Tính năng
 
-1. **Data Collection**: Collect comprehensive personal info
-2. **Validation**: Validate email, phone, age
-3. **Multiple Formats**: Business card, CV summary, social media bio
-4. **Export Options**: Save to text file
-5. **Templates**: Multiple card templates
-6. **Statistics**: Calculate some personal stats
+1. **Thu thập dữ liệu**: Thu thập thông tin cá nhân toàn diện
+2. **Xác thực**: Xác thực email, số điện thoại, tuổi
+3. **Nhiều định dạng**: Danh thiếp, tóm tắt CV, tiểu sử mạng xã hội
+4. **Tùy chọn xuất**: Lưu vào file text
+5. **Mẫu thiết kế**: Nhiều mẫu card khác nhau
+6. **Thống kê**: Tính toán một số thống kê cá nhân
 
-### 📋 Information to Collect
+### 📋 Thông tin cần thu thập
 
-- Personal: Name, age, birth date, location
-- Contact: Email, phone, social media
-- Professional: Job title, company, experience
-- Interests: Hobbies, skills, goals
-- Physical: Height, weight (optional)
+- Cá nhân: Họ tên, tuổi, ngày sinh, địa điểm
+- Liên hệ: Email, điện thoại, mạng xã hội
+- Nghề nghiệp: Chức danh, công ty, kinh nghiệm
+- Sở thích: Hobby, kỹ năng, mục tiêu
+- Thể chất: Chiều cao, cân nặng (tùy chọn)
 
-### 🎯 Sample Output
+### 🎯 Kết quả mẫu
 
 ```
 ╔══════════════════════════════════════╗
-║           PROFILE CARD               ║
+║           THẺ HỒ SƠ                  ║
 ╠══════════════════════════════════════╣
-║ Name: Nguyen Van A                   ║
-║ Age: 25 | Location: Ho Chi Minh      ║
-║ Job: Python Developer                ║
+║ Họ tên: Nguyễn Văn A                 ║
+║ Tuổi: 25 | Địa điểm: TP Hồ Chí Minh  ║
+║ Nghề: Lập trình viên Python          ║
 ║ Email: nguyenvana@email.com          ║
-║ Interests: Coding, Music, Travel     ║
+║ Sở thích: Lập trình, Nhạc, Du lịch   ║
 ╚══════════════════════════════════════╝
 ```
 
@@ -100,96 +100,96 @@ Tạo chương trình thu thập thông tin cá nhân và generate profile card 
 
 ---
 
-## 📊 Grading Criteria
+## 📊 Tiêu chí chấm điểm
 
-### Project 1: Advanced Calculator (50 points)
+### Dự án 1: Máy tính nâng cao (50 điểm)
 
-- **Functionality (20 pts)**: All required features work correctly
-- **Code Quality (10 pts)**: Clean, readable, well-commented
-- **Error Handling (10 pts)**: Proper input validation and error messages
-- **User Experience (10 pts)**: Easy to use, clear instructions
+- **Tính năng (20 điểm)**: Tất cả tính năng yêu cầu hoạt động đúng
+- **Chất lượng code (10 điểm)**: Sạch sẽ, dễ đọc, có comment tốt
+- **Xử lý lỗi (10 điểm)**: Xác thực đầu vào và thông báo lỗi phù hợp
+- **Trải nghiệm người dùng (10 điểm)**: Dễ sử dụng, hướng dẫn rõ ràng
 
-### Project 2: Profile Generator (50 points)
+### Dự án 2: Trình tạo hồ sơ (50 điểm)
 
-- **Data Collection (15 pts)**: Comprehensive info gathering
-- **Validation (10 pts)**: Proper input validation
-- **Output Format (15 pts)**: Beautiful, well-formatted output
-- **Code Organization (10 pts)**: Good structure and functions
+- **Thu thập dữ liệu (15 điểm)**: Thu thập thông tin toàn diện
+- **Xác thực (10 điểm)**: Xác thực đầu vào phù hợp
+- **Định dạng đầu ra (15 điểm)**: Đẹp mắt, định dạng tốt
+- **Tổ chức code (10 điểm)**: Cấu trúc và functions tốt
 
-### Bonus Points (Up to 20 points)
+### Điểm thưởng (Tối đa 20 điểm)
 
-- **Extra Features**: Additional functionalities
-- **Creative Design**: Innovative approaches
-- **Documentation**: Detailed README files
-- **Testing**: Test different scenarios
-
----
-
-## 🏆 Challenge Features (Bonus)
-
-### Calculator Enhancements:
-
-- [ ] Graph plotting (simple ASCII)
-- [ ] Equation solver
-- [ ] Matrix calculations
-- [ ] Base conversion (binary, hex, octal)
-- [ ] Statistical functions
-
-### Profile Generator Enhancements:
-
-- [ ] QR code generation for contact info
-- [ ] Multiple language support
-- [ ] Photo ASCII art integration
-- [ ] Social media link validation
-- [ ] Export to different formats (JSON, CSV)
+- **Tính năng bổ sung**: Chức năng thêm
+- **Thiết kế sáng tạo**: Cách tiếp cận đổi mới
+- **Tài liệu**: File README chi tiết
+- **Kiểm thử**: Test các tình huống khác nhau
 
 ---
 
-## 🔧 Development Guidelines
+## 🏆 Tính năng thử thách (Bonus)
 
-### 1. Planning Phase
+### Cải tiến máy tính:
 
-- [ ] Sketch program flow
-- [ ] List all required functions
-- [ ] Design user interface (text-based)
-- [ ] Plan error scenarios
+- [ ] Vẽ đồ thị (ASCII đơn giản)
+- [ ] Giải phương trình
+- [ ] Tính toán ma trận
+- [ ] Chuyển đổi cơ số (nhị phân, hex, octal)
+- [ ] Hàm thống kê
 
-### 2. Development Phase
+### Cải tiến trình tạo hồ sơ:
 
-- [ ] Start with basic functionality
-- [ ] Add features incrementally
-- [ ] Test each feature thoroughly
-- [ ] Refactor and optimize
-
-### 3. Testing Phase
-
-- [ ] Test with valid inputs
-- [ ] Test with invalid inputs
-- [ ] Test edge cases
-- [ ] User acceptance testing
-
-### 4. Documentation Phase
-
-- [ ] Add comments to code
-- [ ] Create user manual
-- [ ] Document known issues
-- [ ] Write reflection
+- [ ] Tạo mã QR cho thông tin liên hệ
+- [ ] Hỗ trợ đa ngôn ngữ
+- [ ] Tích hợp ASCII art cho ảnh
+- [ ] Xác thực liên kết mạng xã hội
+- [ ] Xuất sang các định dạng khác (JSON, CSV)
 
 ---
 
-## 📝 Submission Requirements
+## 🔧 Hướng dẫn phát triển
 
-### Files to Submit:
+### 1. Giai đoạn lập kế hoạch
 
-1. **Source Code**: All .py files
-2. **Documentation**: README.md for each project
-3. **Test Cases**: Sample inputs and outputs
-4. **Reflection**: What you learned, challenges faced
+- [ ] Phác thảo luồng chương trình
+- [ ] Liệt kê tất cả functions cần thiết
+- [ ] Thiết kế giao diện người dùng (text-based)
+- [ ] Lập kế hoạch cho các tình huống lỗi
 
-### Submission Format:
+### 2. Giai đoạn phát triển
+
+- [ ] Bắt đầu với chức năng cơ bản
+- [ ] Thêm tính năng từng bước
+- [ ] Test kỹ lưỡng từng tính năng
+- [ ] Refactor và tối ưu
+
+### 3. Giai đoạn kiểm thử
+
+- [ ] Test với đầu vào hợp lệ
+- [ ] Test với đầu vào không hợp lệ
+- [ ] Test các trường hợp biên
+- [ ] Kiểm thử chấp nhận của người dùng
+
+### 4. Giai đoạn tài liệu
+
+- [ ] Thêm comment vào code
+- [ ] Tạo hướng dẫn sử dụng
+- [ ] Ghi chép các vấn đề đã biết
+- [ ] Viết bài phản ánh
+
+---
+
+## 📝 Yêu cầu nộp bài
+
+### Files cần nộp:
+
+1. **Source Code**: Tất cả files .py
+2. **Tài liệu**: README.md cho mỗi dự án
+3. **Test Cases**: Đầu vào và đầu ra mẫu
+4. **Bài phản ánh**: Những gì đã học, khó khăn gặp phải
+
+### Định dạng nộp bài:
 
 ```
-Week01_Projects_[YourName]/
+Week01_Projects_[TenBan]/
 ├── project1_calculator/
 │   ├── calculator.py
 │   ├── functions.py
@@ -205,33 +205,33 @@ Week01_Projects_[YourName]/
 
 ---
 
-## 🎯 Learning Outcomes
+## 🎯 Kết quả học tập
 
-After completing these projects, you should be able to:
+Sau khi hoàn thành các dự án này, bạn sẽ có thể:
 
-- [ ] Structure a larger Python program
-- [ ] Use functions to organize code
-- [ ] Handle user input and validation
-- [ ] Implement error handling
-- [ ] Create user-friendly interfaces
-- [ ] Debug and test programs
-- [ ] Document your code properly
+- [ ] Cấu trúc một chương trình Python lớn hơn
+- [ ] Sử dụng functions để tổ chức code
+- [ ] Xử lý đầu vào người dùng và xác thực
+- [ ] Thực hiện xử lý lỗi
+- [ ] Tạo giao diện thân thiện với người dùng
+- [ ] Debug và test chương trình
+- [ ] Viết tài liệu cho code một cách đúng đắn
 
 ---
 
-## 🔗 Resources
+## 🔗 Tài liệu tham khảo
 
-### Python Documentation:
+### Tài liệu Python:
 
 - [Built-in Functions](https://docs.python.org/3/library/functions.html)
 - [String Methods](https://docs.python.org/3/library/stdtypes.html#string-methods)
 - [Math Module](https://docs.python.org/3/library/math.html)
 
-### Tutorials:
+### Hướng dẫn:
 
 - [Real Python - Python Functions](https://realpython.com/defining-your-own-python-function/)
 - [Python Error Handling](https://realpython.com/python-exceptions/)
 
 ---
 
-**Timeline**: Complete both projects in 3-4 days, spend 1 day on documentation and testing.
+**Lịch trình**: Hoàn thành cả hai dự án trong 3-4 ngày, dành 1 ngày cho tài liệu và kiểm thử.

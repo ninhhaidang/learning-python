@@ -1,4 +1,4 @@
-# Exercise 13: Complex Calculations
+# Bài tập 13: Tính toán phức tạp
 
 ## Mô tả bài tập
 
@@ -8,26 +8,26 @@ Thực hiện các phép tính phức tạp trong các lĩnh vực khác nhau: t
 
 Thực hiện các nhiệm vụ sau trong file `practice.py`:
 
-### Module 1: Advanced Mathematics
+### Module 1: Toán học nâng cao
 
 1. Tính phương trình bậc 2: ax² + bx + c = 0
 2. Tính diện tích và chu vi các hình học phức tạp
 3. Tính ma trận và determinant (2x2, 3x3)
-4. Series calculation: sin, cos, exponential
-5. Numerical integration (trapezoidal rule)
+4. Tính toán chuỗi: sin, cos, exponential
+5. Tích phân số (quy tắc hình thang)
 
-### Module 2: Scientific Calculations
+### Module 2: Tính toán khoa học
 
 6. Tính áp suất khí lý tưởng (PV = nRT)
 7. Tính năng lượng động học và thế năng
 8. Tính tần số và wavelength sóng
-9. Chemical equation balancing (đơn giản)
-10. Unit conversion trong physics
+9. Cân bằng phương trình hóa học (đơn giản)
+10. Chuyển đổi đơn vị trong physics
 
-### Module 3: Financial Mathematics
+### Module 3: Toán học tài chính
 
-11. Compound interest với frequency khác nhau
-12. Annuity and pension calculations
+11. Lãi suất kép với tần suất khác nhau
+12. Tính toán niên kim và lương hưu
 13. Loan amortization schedule
 14. Investment portfolio analysis
 15. Risk and return calculations

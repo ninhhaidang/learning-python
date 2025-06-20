@@ -110,7 +110,7 @@ def function():
         print(\"Line 2\")   # 8 spaces - ERROR: Unexpected indent
 ```
 
-### 🎯 Indentation Best Practices
+### 🎯 Thực hành tốt nhất cho thụt đầu dòng
 
 1. **Use 4 spaces** (PEP 8 standard)
 2. **Be consistent** throughout your code
@@ -195,7 +195,7 @@ class Rectangle:
         self.height = height
 ```
 
-### 🎯 Comment Best Practices
+### 🎯 Thực hành tốt nhất cho comment
 
 #### ✅ Good Comments:
 

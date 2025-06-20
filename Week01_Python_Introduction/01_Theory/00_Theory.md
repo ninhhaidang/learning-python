@@ -2,7 +2,7 @@
 
 ## 📚 Danh sách tài liệu
 
-### 📖 Module 1: Python Foundation
+### 📖 Module 1: Nền tảng Python
 
 1. **[01_python_introduction.md](01_python_introduction.md)** - Giới thiệu Python và cài đặt môi trường
 2. **[02_development_environment.md](02_development_environment.md)** - Thiết lập môi trường phát triển
@@ -10,7 +10,7 @@
 4. **[04_python_syntax_basics.md](04_python_syntax_basics.md)** - Cú pháp Python cơ bản
 5. **[05_variables_and_data_types.md](05_variables_and_data_types.md)** - Biến và kiểu dữ liệu
 
-### 📖 Module 2: Input/Output & Basic Operations
+### 📖 Module 2: Nhập xuất và thao tác cơ bản
 
 6. **[06_input_output_operations.md](06_input_output_operations.md)** - Thao tác input/output
 7. **[07_operators_and_expressions.md](07_operators_and_expressions.md)** - Toán tử và biểu thức
@@ -18,26 +18,26 @@
 
 ## 📋 Thứ tự học tập khuyến nghị
 
-### Ngày 1-2: Python Foundation
+### Ngày 1-2: Nền tảng Python
 
 - [ ] Đọc `01_python_introduction.md`
 - [ ] Thực hiện `02_development_environment.md`
 - [ ] Thực hành `03_first_python_program.md`
 
-### Ngày 3-4: Syntax & Data Types
+### Ngày 3-4: Cú pháp và kiểu dữ liệu
 
 - [ ] Học `04_python_syntax_basics.md`
 - [ ] Nắm vững `05_variables_and_data_types.md`
 
-### Ngày 5-6: Operations & Debugging
+### Ngày 5-6: Thao tác và Debug
 
 - [ ] Thành thạo `06_input_output_operations.md`
 - [ ] Hiểu `07_operators_and_expressions.md`
 - [ ] Làm quen `08_debugging_and_troubleshooting.md`
 
-### Ngày 7: Review & Practice
+### Ngày 7: Ôn tập và thực hành
 
-- [ ] Ôn tập tất cả concepts
+- [ ] Ôn tập tất cả khái niệm
 - [ ] Chuẩn bị cho exercises
 
 ## ⏰ Thời gian đọc ước tính

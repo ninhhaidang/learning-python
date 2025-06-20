@@ -524,7 +524,7 @@ eligible = (age >= 18) and has_license and (income > 30000)
 print(f\"Loan eligible (explicit): {eligible}\")
 ```
 
-### 📝 Best Practices for Precedence
+### 📝 Thực hành tốt nhất cho thứ tự ưu tiên
 
 ```python
 # ✅ Use parentheses for clarity

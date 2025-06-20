@@ -138,7 +138,7 @@ File opened and closed automatically ✓
 - Class và object concepts
 - Advanced Python features preview
 - Code organization
-- Best practices introduction
+- Giới thiệu thực hành tốt nhất
 - Debugging techniques
 
 ## Mức độ khó: ⭐⭐⭐⭐⭐

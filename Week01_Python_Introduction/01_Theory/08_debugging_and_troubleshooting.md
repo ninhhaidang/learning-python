@@ -1,24 +1,24 @@
-# 🐛 Debugging and Troubleshooting
+# 🐛 Debug và khắc phục sự cố
 
 ## 📖 Mục lục
 
-1. [Understanding Errors](#1-understanding-errors)
-2. [Common Python Errors](#2-common-python-errors)
-3. [Reading Error Messages](#3-reading-error-messages)
-4. [Debugging Strategies](#4-debugging-strategies)
-5. [Using Python Debugger](#5-using-python-debugger)
-6. [IDE Debugging Features](#6-ide-debugging-features)
-7. [Best Practices](#7-best-practices)
+1. [Hiểu về lỗi](#1-hiểu-về-lỗi)
+2. [Các lỗi Python phổ biến](#2-các-lỗi-python-phổ-biến)
+3. [Đọc thông báo lỗi](#3-đọc-thông-báo-lỗi)
+4. [Chiến lược Debug](#4-chiến-lược-debug)
+5. [Sử dụng Python Debugger](#5-sử-dụng-python-debugger)
+6. [Tính năng Debug trong IDE](#6-tính-năng-debug-trong-ide)
+7. [Thực hành tốt nhất](#7-thực-hành-tốt-nhất)
 
 ---
 
-## 1. Understanding Errors
+## 1. Hiểu về lỗi
 
-### 🎯 Types of Errors
+### 🎯 Các loại lỗi
 
-#### 1. **Syntax Errors** (Parsing Errors)
+#### 1. **Lỗi cú pháp** (Parsing Errors)
 
-Code that doesn't follow Python syntax rules
+Code không tuân theo quy tắc cú pháp Python
 
 ```python
 # Missing colon
@@ -33,9 +33,9 @@ def my_function():
 print(\"Hello\")  # IndentationError: expected an indented block
 ```
 
-#### 2. **Runtime Errors** (Exceptions)
+#### 2. **Lỗi thời gian chạy** (Exceptions)
 
-Code is syntactically correct but fails during execution
+Code có cú pháp đúng nhưng thất bại khi thực thi
 
 ```python
 # Division by zero
@@ -173,9 +173,9 @@ first = numbers[0]  # IndexError: list index out of range
 
 ---
 
-## 3. Reading Error Messages
+## 3. Đọc thông báo lỗi
 
-### 📋 Anatomy of an Error Message
+### 📋 Cấu trúc của thông báo lỗi
 
 ```python
 # Example error-producing code
@@ -540,7 +540,7 @@ result = debug_interactive_example()
 
 ---
 
-## 7. Best Practices
+## 7. Thực hành tốt nhất
 
 ### ✅ Error Prevention
 

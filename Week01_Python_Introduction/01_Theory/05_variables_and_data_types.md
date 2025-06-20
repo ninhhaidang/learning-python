@@ -57,7 +57,7 @@ class = \"invalid\"         # Can't use Python keywords
 @username = \"invalid\"     # Special characters not allowed
 ```
 
-### 🎯 Naming Best Practices
+### 🎯 Thực hành tốt nhất đặt tên
 
 ```python
 # ✅ Descriptive names
