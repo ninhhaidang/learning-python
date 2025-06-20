@@ -1,14 +1,16 @@
-# =====================================
-# Exercise 2: Variables - Week 1
-# =====================================
-# 
-# Hướng dẫn:
-# 1. Đọc đề bài trong file 1_problem.md
-# 2. Viết code vào file này
-# 3. Chạy và test chương trình của bạn
-# 4. So sánh với đáp án trong 3_solution.py
-#
-# Chúc bạn code vui vẻ! 🚀
-# =====================================
+#!/usr/bin/env python3
+"""
+Week 1 - Exercise 2: Variables
+Practice File - Write your code here
 
-# Viết code của bạn ở đây:
+Student Name: _______________
+Date: _______________
+"""
+
+# TODO: Declare variables here
+# name = 
+# age = 
+# height = 
+# is_student = 
+
+# TODO: Print the information using f-strings
