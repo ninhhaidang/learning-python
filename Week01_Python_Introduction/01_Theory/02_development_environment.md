@@ -1,43 +1,43 @@
-# 🛠️ Development Environment Setup
+# 🛠️ Thiết lập môi trường phát triển
 
 ## 📖 Mục lục
 
-1. [Anaconda Installation (Khuyến nghị)](#1-anaconda-installation)
-2. [Python Official Installation](#2-python-official-installation)
-3. [VS Code Setup](#3-vs-code-setup)
+1. [Cài đặt Anaconda (Khuyến nghị)](#1-cài-đặt-anaconda-khuyến-nghị)
+2. [Cài đặt Python chính thức](#2-cài-đặt-python-chính-thức)
+3. [Thiết lập VS Code](#3-thiết-lập-vs-code)
 4. [Jupyter Notebook](#4-jupyter-notebook)
-5. [Git Installation](#5-git-installation)
-6. [Environment Verification](#6-environment-verification)
+5. [Cài đặt Git](#5-cài-đặt-git)
+6. [Kiểm tra môi trường](#6-kiểm-tra-môi-trường)
 
 ---
 
-## 1. Anaconda Installation (Khuyến nghị)
+## 1. Cài đặt Anaconda (Khuyến nghị)
 
 ### 🐍 Tại sao chọn Anaconda?
 
-- **All-in-one package**: Python + essential libraries + package manager
-- **Conda environment**: Quản lý môi trường dễ dàng
-- **Pre-installed libraries**: NumPy, Pandas, Matplotlib, Jupyter, v.v.
-- **Cross-platform**: Hoạt động trên Windows, Mac, Linux
-- **Beginner-friendly**: GUI interface với Anaconda Navigator
+- **Gói tất cả trong một**: Python + thư viện thiết yếu + trình quản lý gói
+- **Môi trường Conda**: Quản lý môi trường dễ dàng
+- **Thư viện được cài sẵn**: NumPy, Pandas, Matplotlib, Jupyter, v.v.
+- **Đa nền tảng**: Hoạt động trên Windows, Mac, Linux
+- **Thân thiện với người mới**: Giao diện GUI với Anaconda Navigator
 
 ### 📥 Download và Install
 
 #### Windows:
 
 1. Truy cập [anaconda.com/products/distribution](https://www.anaconda.com/products/distribution)
-2. Download **Python 3.11** version for Windows
-3. Chạy installer (.exe file)
-4. **Important settings**:
-   - ✅ Add Anaconda to PATH environment variable
-   - ✅ Register Anaconda as default Python
-   - ✅ Install for all users (nếu có admin rights)
+2. Download **Python 3.11** phiên bản cho Windows
+3. Chạy installer (file .exe)
+4. **Cài đặt quan trọng**:
+   - ✅ Thêm Anaconda vào biến môi trường PATH
+   - ✅ Đăng ký Anaconda làm Python mặc định
+   - ✅ Cài đặt cho tất cả người dùng (nếu có quyền admin)
 
 #### macOS:
 
-1. Download **Python 3.11** version for macOS
-2. Chạy installer (.pkg file)
-3. Follow installation wizard
+1. Download **Python 3.11** phiên bản cho macOS
+2. Chạy installer (file .pkg)
+3. Làm theo hướng dẫn cài đặt
 4. Restart terminal sau khi cài đặt
 
 #### Linux (Ubuntu/Debian):
@@ -57,24 +57,24 @@ chmod +x Anaconda3-2023.03-Linux-x86_64.sh
 source ~/.bashrc
 ```
 
-### ✅ Verify Installation
+### ✅ Xác minh cài đặt
 
 ```bash
-# Check Python version
+# Kiểm tra phiên bản Python
 python --version
-# Should output: Python 3.11.x
+# Kết quả: Python 3.11.x
 
-# Check conda
+# Kiểm tra conda
 conda --version
-# Should output: conda x.x.x
+# Kết quả: conda x.x.x
 
-# Check available packages
+# Kiểm tra các gói có sẵn
 conda list
 ```
 
 ---
 
-## 2. Python Official Installation
+## 2. Cài đặt Python chính thức
 
 ### 📥 Download từ Python.org
 
@@ -136,36 +136,36 @@ Publisher: Microsoft
 ID: ms-python.python
 ```
 
-**Features include**:
+**Tính năng bao gồm**:
 
-- IntelliSense (code completion)
-- Debugging support
-- Code formatting
-- Jupyter integration
+- IntelliSense (tự động hoàn thành code)
+- Hỗ trợ debugging
+- Định dạng code
+- Tích hợp Jupyter
 
-#### Useful Additional Extensions
+#### Các Extension bổ sung hữu ích
 
 ```
-# Code formatting
+# Định dạng code
 Name: Prettier - Code formatter
 ID: esbenp.prettier-vscode
 
-# Git integration
+# Tích hợp Git
 Name: GitLens
 ID: eamodio.gitlens
 
-# Bracket colorization
+# Tô màu ngoặc
 Name: Bracket Pair Colorizer 2
 ID: coenraads.bracket-pair-colorizer-2
 
-# File icons
+# Icon file
 Name: Material Icon Theme
 ID: pkief.material-icon-theme
 ```
 
-### ⚙️ VS Code Configuration
+### ⚙️ Cấu hình VS Code
 
-#### Python Interpreter Setup:
+#### Thiết lập Python Interpreter:
 
 1. Open Command Palette (`Ctrl+Shift+P`)
 2. Type \"Python: Select Interpreter\"
@@ -195,25 +195,25 @@ ID: pkief.material-icon-theme
 ### 🚀 Launch Jupyter
 
 ```bash
-# Method 1: From terminal
+# Phương pháp 1: Từ terminal
 jupyter notebook
 
-# Method 2: From Anaconda Navigator
-# Open Anaconda Navigator → Launch Jupyter Notebook
+# Phương pháp 2: Từ Anaconda Navigator
+# Mở Anaconda Navigator → Khởi chạy Jupyter Notebook
 
-# Method 3: JupyterLab (modern interface)
+# Phương pháp 3: JupyterLab (giao diện hiện đại)
 jupyter lab
 ```
 
-### 🔧 Jupyter Configuration
+### 🔧 Cấu hình Jupyter
 
-#### Create config file:
+#### Tạo file config:
 
 ```bash
 jupyter notebook --generate-config
 ```
 
-#### Useful extensions:
+#### Các extension hữu ích:
 
 ```bash
 # Install nbextensions
@@ -259,10 +259,10 @@ print(\"All libraries loaded successfully!\")
 #### macOS:
 
 ```bash
-# Method 1: Homebrew (recommended)
+# Phương pháp 1: Homebrew (khuyến nghị)
 brew install git
 
-# Method 2: Xcode Command Line Tools
+# Phương pháp 2: Xcode Command Line Tools
 xcode-select --install
 ```
 
@@ -368,7 +368,7 @@ if __name__ == \"__main__\":
 python environment_test.py
 ```
 
-**Expected Output:**
+**Kết quả mong đợi:**
 
 ```
 === PYTHON ENVIRONMENT TEST ===

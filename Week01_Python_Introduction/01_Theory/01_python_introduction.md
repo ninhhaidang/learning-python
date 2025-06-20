@@ -44,7 +44,7 @@ Python là ngôn ngữ lập trình high-level, interpreted, và general-purpose
 
 ## 2. Cài đặt Môi Trường
 
-### 🐍 Option 1: Anaconda (Khuyến nghị)
+### 🐍 Lựa chọn 1: Anaconda (Khuyến nghị)
 
 Anaconda là distribution Python chứa sẵn các package cần thiết cho Data Science.
 
@@ -64,7 +64,7 @@ conda --version
 jupyter --version
 ```
 
-### 💻 Option 2: Python Official + pip
+### 💻 Lựa chọn 2: Python Official + pip
 
 Nếu bạn muốn cài đặt lightweight hơn:
 
@@ -280,7 +280,7 @@ print(f"You are {age} years old")
 height = float(input("Enter your height (m): "))
 ```
 
-### 🔧 Practical Example
+### 🔧 Ví dụ thực hành
 
 ```python
 # Simple calculator

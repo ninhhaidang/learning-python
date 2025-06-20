@@ -188,7 +188,7 @@ def divide_numbers():
 divide_numbers()
 ```
 
-**Error Output:**
+**Kết quả lỗi:**
 
 ```
 Traceback (most recent call last):
@@ -228,7 +228,7 @@ def main():
 main()
 ```
 
-**Error Output:**
+**Kết quả lỗi:**
 
 ```
 Traceback (most recent call last):

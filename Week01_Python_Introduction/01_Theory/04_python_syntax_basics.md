@@ -3,7 +3,14 @@
 ## 📖 Mục lục
 
 1. [Python Code Structure](#1-python-code-structure)
-2. [Indentation Rules](#2-indentation-rules)
+2. [Indentation Rules](#2-i#### Cài đặt VS Code:
+
+````json
+{
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "python.formatting.provider": "black"
+}on-rules)
 3. [Comments and Documentation](#3-comments-and-documentation)
 4. [Keywords and Identifiers](#4-keywords-and-identifiers)
 5. [Case Sensitivity](#5-case-sensitivity)
@@ -52,7 +59,7 @@ if __name__ == \"__main__\":
     print(\"Program started\")
     message = greet(\"Python Learner\")
     print(message)
-```
+````
 
 ### 📋 Structure Explanation
 
@@ -456,9 +463,9 @@ x, y = 5, 10  # Tuple unpacking is okay
 
 ---
 
-## 🧪 Practice Examples
+## 🧪 Ví dụ thực hành
 
-### Example 1: Syntax Validation
+### Ví dụ 1: Kiểm tra cú pháp
 
 ```python
 \"\"\"
@@ -483,11 +490,11 @@ result = calculate_area(5)
 print(f\"Area: {result}\")
 ```
 
-### Example 2: Clean Code Structure
+### Ví dụ 2: Cấu trúc code sạch
 
 ```python
 \"\"\"
-Example of well-structured Python code
+Ví dụ về code Python có cấu trúc tốt
 \"\"\"
 
 # Constants
@@ -537,27 +544,27 @@ if __name__ == \"__main__\":
 
 ## 🔧 Debugging Syntax Errors
 
-### Common Error Messages:
+### Thông báo lỗi phổ biến:
 
 ```python
 # SyntaxError: invalid syntax
-# Usually caused by missing parentheses, quotes, or colons
+# Thường do thiếu ngoặc đơn, dấu ngoặc kép, hoặc dấu hai chấm
 
 # IndentationError: expected an indented block
-# Missing indentation after if, for, def, etc.
+# Thiếu indentation sau if, for, def, v.v.
 
 # IndentationError: unexpected indent
-# Extra or inconsistent indentation
+# Thừa hoặc không nhất quán indentation
 
 # NameError: name 'X' is not defined
-# Variable used before definition or misspelled
+# Biến được sử dụng trước khi định nghĩa hoặc viết sai tên
 ```
 
-### 🛠️ Debugging Tips:
+### 🛠️ Mẹo Debug:
 
-1. **Read error messages carefully** - they point to the line and issue
-2. **Check indentation** - use your editor's whitespace visualization
-3. **Verify matching quotes** and parentheses
+1. **Đọc thông báo lỗi cẩn thận** - chúng chỉ ra dòng và vấn đề
+2. **Kiểm tra indentation** - sử dụng tính năng hiển thị khoảng trắng của editor
+3. **Xác minh dấu ngoặc kép khớp** và dấu ngoặc đơn
 4. **Check spelling** of variable names and functions
 5. **Use a linter** like pylint or flake8
 

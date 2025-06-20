@@ -1,101 +1,101 @@
-# 🚀 Your First Python Program
+# 🚀 Chương trình Python đầu tiên của bạn
 
 ## 📖 Mục lục
 
-1. [Hello World Program](#1-hello-world-program)
-2. [Running Python Code](#2-running-python-code)
-3. [Understanding the Output](#3-understanding-the-output)
-4. [Interactive vs Script Mode](#4-interactive-vs-script-mode)
-5. [Your First Real Program](#5-your-first-real-program)
+1. [Chương trình Hello World](#1-chương-trình-hello-world)
+2. [Chạy code Python](#2-chạy-code-python)
+3. [Hiểu kết quả đầu ra](#3-hiểu-kết-quả-đầu-ra)
+4. [Chế độ tương tác vs Script](#4-chế-độ-tương-tác-vs-script)
+5. [Chương trình thực tế đầu tiên](#5-chương-trình-thực-tế-đầu-tiên)
 
 ---
 
-## 1. Hello World Program
+## 1. Chương trình Hello World
 
-### 🎯 Tradition of \"Hello World\"
+### 🎯 Truyền thống "Hello World"
 
-Mọi lập trình viên đều bắt đầu với \"Hello World\" - đây là tradition trong ngành IT để:
+Mọi lập trình viên đều bắt đầu với "Hello World" - đây là truyền thống trong ngành IT để:
 
-- Verify environment setup
-- Understand basic syntax
-- First successful program experience
-- Build confidence
+- Xác minh thiết lập môi trường
+- Hiểu cú pháp cơ bản
+- Trải nghiệm chương trình thành công đầu tiên
+- Xây dựng sự tự tin
 
-### 📝 The Classic Hello World
+### 📝 Hello World cổ điển
 
 Tạo file `hello_world.py`:
 
 ```python
-# My first Python program
-print(\"Hello, World!\")
+# Chương trình Python đầu tiên của tôi
+print("Hello, World!")
 ```
 
 **Phân tích code:**
 
 - `#` : Comment (ghi chú) - không ảnh hưởng chương trình
-- `print()` : Built-in function để xuất dữ liệu ra màn hình
-- `\"Hello, World!\"` : String literal (chuỗi ký tự)
+- `print()` : Hàm có sẵn để xuất dữ liệu ra màn hình
+- `"Hello, World!"` : Chuỗi ký tự (string literal)
 
-### 🌟 Enhanced Hello World
+### 🌟 Hello World nâng cao
 
 ```python
-# Enhanced Hello World Program
-# Author: [Your Name]
-# Date: [Today's Date]
+# Chương trình Hello World nâng cao
+# Tác giả: [Tên của bạn]
+# Ngày: [Ngày hôm nay]
 
-print(\"Hello, World!\")
-print(\"Welcome to Python Programming!\")
-print(\"This is my first Python program.\")
+print("Hello, World!")
+print("Chào mừng đến với lập trình Python!")
+print("Đây là chương trình Python đầu tiên của tôi.")
 
-# Let's add some personality
-print(\"🐍 Python is awesome!\")
-print(\"I'm excited to learn programming!\")
+# Hãy thêm chút cá tính
+print("🐍 Python thật tuyệt vời!")
+print("Tôi rất háo hức học lập trình!")
 ```
 
 ---
 
-## 2. Running Python Code
+## 2. Chạy code Python
 
-### 💻 Method 1: Command Line/Terminal
+### 💻 Phương pháp 1: Command Line/Terminal
 
 #### Windows:
 
 ```cmd
-# Navigate to file location
-cd C:\\path\\to\\your\\file
+# Di chuyển đến vị trí file
+cd C:\path\to\your\file
 
-# Run the program
+# Chạy chương trình
 python hello_world.py
 ```
 
 #### macOS/Linux:
 
 ```bash
-# Navigate to file location
+# Di chuyển đến vị trí file
 cd /path/to/your/file
 
-# Run the program
+# Chạy chương trình
 python3 hello_world.py
-# or
+# hoặc
 python hello_world.py
 ```
 
-### 🔧 Method 2: VS Code
+### 🔧 Phương pháp 2: VS Code
 
-1. Open `hello_world.py` in VS Code
-2. Click \"Run Python File\" button (▶️) in top-right
-3. Or press `Ctrl+F5` (Windows) / `Cmd+F5` (Mac)
-4. Output appears in terminal panel
+1. Mở `hello_world.py` trong VS Code
+2. Nhấp nút "Run Python File" (▶️) ở góc trên bên phải
+3. Hoặc nhấn `Ctrl+F5` (Windows) / `Cmd+F5` (Mac)
+4. Kết quả xuất hiện trong panel terminal
 
-### 📓 Method 3: Jupyter Notebook
+### 📓 Phương pháp 3: Jupyter Notebook
 
 ```python
-# In a Jupyter cell
-print(\"Hello, World!\")
-# Press Shift+Enter to run
+# Trong một cell Jupyter
+print("Hello, World!")
+# Nhấn Shift+Enter để chạy
 ```
 
-### 🐍 Method 4: Python Interactive Mode
+### 🐍 Phương pháp 4: Chế độ tương tác Python
 
 ```bash
 # Start Python interpreter

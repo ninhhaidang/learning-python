@@ -754,7 +754,7 @@ for customer_type in customer_types:
 - [ ] Know membership operators (in, not in)
 - [ ] Understand operator precedence and use parentheses for clarity
 - [ ] Can write complex expressions and conditional logic
-- [ ] Practice with real-world applications
+- [ ] Thực hành với ứng dụng thực tế
 
 ---
 

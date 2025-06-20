@@ -35,10 +35,10 @@ print(age)            # Output: 26
 #### ✅ Valid Variable Names:
 
 ```python
-# Good examples
+# Ví dụ tốt
 username = \"john_doe\"
 first_name = \"John\"
-lastName = \"Doe\"      # camelCase (less common in Python)
+lastName = \"Doe\"      # camelCase (ít phổ biến trong Python)
 age2 = 25
 _private = \"hidden\"
 MAX_SIZE = 100
@@ -509,9 +509,9 @@ print(isinstance(age, (int, float)))  # True (check multiple types)
 
 ---
 
-## 🧪 Practical Examples
+## 🧪 Ví dụ thực hành
 
-### Example 1: Personal Information System
+### Ví dụ 1: Hệ thống thông tin cá nhân
 
 ```python
 \"\"\"
@@ -550,11 +550,11 @@ print(f\"height type: {type(height)}\")
 print(f\"is_employed type: {type(is_employed)}\")
 ```
 
-### Example 2: Calculator Variables
+### Ví dụ 2: Biến cho máy tính
 
 ```python
 \"\"\"
-Simple Calculator using Variables
+Máy tính đơn giản sử dụng các biến
 \"\"\"
 
 # Input numbers
@@ -594,7 +594,7 @@ print(f\"Boolean value of {num1}: {bool(num1)}\")
 - [ ] Can use f-strings for string formatting
 - [ ] Understand truthy/falsy values
 - [ ] Can handle type conversion errors
-- [ ] Practice with real-world examples
+- [ ] Thực hành với các ví dụ thực tế
 
 ---
 
@@ -607,7 +607,7 @@ print(f\"Boolean value of {num1}: {bool(num1)}\")
 5. **Type conversion** is often necessary when working with user input
 6. **F-strings** are the modern way to format strings in Python
 7. **Variable scope** affects where variables can be accessed
-8. **Practice with real examples** to solidify understanding
+8. **Thực hành với ví dụ thực tế** để củng cố hiểu biết
 
 ---
 
